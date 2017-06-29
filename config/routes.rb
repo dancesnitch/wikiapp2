@@ -6,4 +6,8 @@ Rails.application.routes.draw do
 
   get 'pages/about'
 
+  get 'articles/article'
+
+  resources :articles
+
 end
