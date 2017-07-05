@@ -18,6 +18,7 @@ class RegistrationsController < Devise::RegistrationsController
 			:email,
 			:password,
 			:password_confirmation,
+			:current_password,
 			:username,
 			:firstname,
 			:lastname,

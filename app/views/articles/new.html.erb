@@ -1,11 +1,3 @@
-<h1>New Article</h1>
-
-<%= render 'form', articles: @article %>
-<p><object width="371" height="306"><param name="movie"
-value="http://www.youtube.com/v/<%=params[:video_id]%>&au...
-/><embed
-src="http://www.youtube.com/v/<%=params[:video_id]%>&au...
-type="application/x-shockwave-flash" width="371"
-height="306"></embed></object></p>
-
-<%= link_to 'Back', articles_path %>
+<h1>new article</h1>
+<%= render 'form' %>
+<%= link_to "Back", root_path %>
